@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.vedio-back {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.app {
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4 ease;
+}
+
+main {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.75));
+    padding: 25px;
+}
+
+.search-box {
+    width: 100%;
+    margin: 0 0 30px;
+}
+
+.search-box .search-bar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 16px;
+    box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+    color: #313131;
+    font-size: 20px;
+    transition: 0.4s ease;
+}
+
+.search-box .search-bar:focus {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+
+.location-box .location {
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.location-box .date {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.weather-box {
+    text-align: center;
+}
+
+.weather-box .temp {
+    position: relative;
+    display: inline-block;
+    margin: 45px auto 0px auto;
+    padding: 15px 25px 0px 25px;
+    color: #FFF;
+    font-size: 140px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.weather-box .weather {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.extra {
+    display: block;
+    margin: 40px auto auto;
+    padding: 15px 25px 0px 25px;
+    color: #FFF;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
+.extra-item {
+    position: relative;
+    display: block;
+    margin: 5px auto 5px auto;
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 500;
+    align-items: center;
+    text-align: left;
+}
+
+.warning {
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
